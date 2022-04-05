@@ -9,5 +9,4 @@ COPY go.sum ./
 RUN go mod download
 
 RUN go build -o /dockerapp
-
 EXPOSE 8080
