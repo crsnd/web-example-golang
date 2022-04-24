@@ -34,4 +34,4 @@ jobs:
             cd /home/crsnd/web-example-golang
             ls -lah
             docker rm -f web-example-golang && docker rmi chrissendy/web-example-golang:latest
-            docker-compose -f docker-compose-live.yml up -d
+            docker-compose -f docker-compose.yml up -d
